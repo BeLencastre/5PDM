@@ -1,0 +1,14 @@
+footer {
+  background-color: #050C42;
+  height: 80px;
+  width: 100%;
+  bottom: 0;
+  position: absolute;
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  footer {
+    height: 60px;
+  }
+}
